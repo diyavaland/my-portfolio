@@ -2,6 +2,7 @@ import { assets } from '@/assets/assets';
 import React from 'react';
 import Image from 'next/image';
 
+
 const Footer = () => {
   return (
     <footer className="mt-10 py-4 bg-transparent">

@@ -2,6 +2,8 @@ import { assets, projectData } from '@/assets/assets';
 import React from 'react';
 import Image from 'next/image';
 
+
+
 const Projects = () => {
   return (
     <div id='projects' className='w-full px-[12%] py-10 scroll-mt-20'>

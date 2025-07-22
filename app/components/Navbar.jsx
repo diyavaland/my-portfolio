@@ -2,6 +2,7 @@ import { assets } from '@/assets/assets'
 import React, { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 
+
 const Navbar = () => {
   const [isScroll, setIsScroll] = useState(false)
   const [darkMode, setDarkMode] = useState(false)

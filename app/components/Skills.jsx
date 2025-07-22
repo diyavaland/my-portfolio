@@ -2,6 +2,7 @@ import { assets, serviceData } from '@/assets/assets'
 import React, { useState } from 'react'
 import Image from 'next/image';
 
+
 const Skills = () => {
   // State to track which index is expanded
   const [expandedIndex, setExpandedIndex] = useState(null);

@@ -2,6 +2,7 @@ import { assets } from '@/assets/assets'
 import React, { useState } from 'react'
 import Image from 'next/image';
 
+
 const Contact = () => {
 
   const [result, setResult] = useState("");
