@@ -16,24 +16,18 @@ const Navbar = () => {
     sideMenuRef.current.style.transform = 'translate(16rem)'
   }
 
-  const toggleTheme = () => {
-    setDarkMode(!darkMode)
-    if (!darkMode) {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
-  }
+const toggleTheme = () => {
+  setDarkMode(prev => !prev)
+}
 
-  useEffect(() => {
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 50) {
-        setIsScroll(true)
-      } else {
-        setIsScroll(false)
-      }
-    })
-  }, [])
+useEffect(() => {
+  if (darkMode) {
+    document.documentElement.classList.add("dark");
+  } else {
+    document.documentElement.classList.remove("dark");
+  }
+}, [darkMode]);
+
 
   return (
     <>
