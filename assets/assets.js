@@ -153,7 +153,7 @@ export const projectData = [
   title: 'Portfolio Website',
   description: 'Built a responsive portfolio using React.js and Next.js, showcasing skills in modern JavaScript, component design, and responsive layouts.',
   image: '/work-3.png',
-  link: 'https://github.com/diyavaland/portfolio'
+  link: 'https://github.com/diyavaland/my-portfolio'
 }
 
 ];
